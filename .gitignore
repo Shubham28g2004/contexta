@@ -1,0 +1,28 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+.venv/
+venv/
+venv*/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Uploaded documents, vector indexes, and local databases
+data/
+database/
+*.sqlite
+*.sqlite3
+*.db
+
+# Tooling and operating-system files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
